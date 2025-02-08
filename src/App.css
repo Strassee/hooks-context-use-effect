@@ -1,0 +1,25 @@
+h3 {
+  margin: 5px;
+  align-self: start;
+}
+
+.App {
+  margin: auto;
+  width: 100vw;
+  height: 80vh;
+  text-align: left;
+}
+
+.users {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: 500px;
+  /* height: 60px; */
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+

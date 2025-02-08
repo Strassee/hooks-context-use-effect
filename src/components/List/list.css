@@ -1,0 +1,24 @@
+.users-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.users-user {
+  width: 90%;
+  margin: 0px 0px;
+  padding: 3px;
+  box-sizing: border-box;
+  text-align: left;
+  border: 1px #a8a8a8 solid;
+  cursor: pointer;
+}
+
+.users-user:hover {
+  transition: all .5s ease;
+  background-color: #93ffc0;
+  opacity: 1;
+}
