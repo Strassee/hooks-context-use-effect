@@ -59,10 +59,10 @@ jobs:
         with:
           node-version: 20.11.0
           cache: 'npm'
-      - env:
-          REACT_APP_USERS_URL: https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data
       - run: npm ci
       - run: npm run build
+        env:
+          REACT_APP_USERS_URL: https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
