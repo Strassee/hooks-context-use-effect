@@ -50,6 +50,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      REACT_APP_USERS_URL: https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data
 
     runs-on: ubuntu-latest
 
